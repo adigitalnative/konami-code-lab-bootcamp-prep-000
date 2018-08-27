@@ -22,7 +22,8 @@ function init() {
     index = (codes[index] === key) ? ++index :0
     
     if (index === codes.length) {
-      window.alert("Woot woot")
+      window.alert("Woot woot");
+      index = 0
     }
   })
   
