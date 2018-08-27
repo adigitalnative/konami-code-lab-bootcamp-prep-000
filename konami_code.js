@@ -20,6 +20,8 @@ function init() {
     const key = e.key
     
     index = (codes[index] === key) ? ++index :0
+    
+    if index.
   })
   
 }
