@@ -13,5 +13,5 @@ const codes = [
 
 function init() {
   
-  console.log(main);
+  console.log("Foo");
 }
