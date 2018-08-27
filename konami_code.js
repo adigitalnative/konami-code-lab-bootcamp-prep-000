@@ -12,19 +12,23 @@ const codes = [
 ];
 
 function init() {
-  const alphabet = ['a', 'b', 'c'];
-  
+
   let index = 0
   
-  document.body.addEventListener('keydown', (e) => {
+  function onKeyDownHandler(e) {
     const key = e.key
     
-    index = (codes[index] === key) ? ++index :0
-    
-    if (index === codes.length) {
-      window.alert("Woot woot");
-      index = 0
+    if (key === codes[index]) {
+      index++;
+      
+      if (index === codes.length) {
+        alert("Mmm, nostalgia.");
+        
+        index = 0;
+      }
+    } else {
+      index = 0;
     }
-  });
+  }
   
 }
