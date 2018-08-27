@@ -12,7 +12,6 @@ const codes = [
 ];
 
 function init() {
-  const main = document.getElementsByID('main')
   
   console.log(main);
 }
