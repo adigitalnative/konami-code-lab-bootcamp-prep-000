@@ -16,6 +16,8 @@ function init() {
   
   let index = 0
   
-  document.body.addEventListener('keydown', (e))
+  document.body.addEventListener('keydown', (e) => {
+    
+  })
   
 }
