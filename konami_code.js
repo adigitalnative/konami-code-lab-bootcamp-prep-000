@@ -12,6 +12,6 @@ const codes = [
 ];
 
 function init() {
-  main= document.
+  main= document.getElementById('main')
   console.log("Foo");
 }
