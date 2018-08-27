@@ -31,4 +31,5 @@ function init() {
     }
   }
   
+  document.addEvent
 }
