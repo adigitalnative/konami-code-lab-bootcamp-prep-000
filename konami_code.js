@@ -32,5 +32,5 @@ function init() {
     }
   }
   
-  document.addEventListener('keydown', onkeyDownHandler(e))
+  document.addEventListener('keydown', onKeyDownHandler(e))
 }
