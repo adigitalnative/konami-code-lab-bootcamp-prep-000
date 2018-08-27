@@ -15,9 +15,7 @@ function init() {
 
   let index = 0
   
-  document.addEventListener.addEventListener('keydown')
-  
-  function onKeyDownHandler(e) {
+  document.addEventListener.addEventListener('keydown', function(e) {
     const key = e.key
     
     if (key === codes[index]) {
@@ -31,7 +29,6 @@ function init() {
     } else {
       index = 0;
     }
-  }
+  })
   
-  document.addEventListener('keydown', onKeyDownHandler(key));
 }
