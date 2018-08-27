@@ -12,6 +12,6 @@ const codes = [
 ];
 
 function init() {
-  
+  main= document.
   console.log("Foo");
 }
