@@ -19,7 +19,7 @@ function init() {
   document.body.addEventListener('keydown', (e) => {
     const key = e.key
     
-    index = (codes[index] === key) ?== index :0
+    index = (codes[index] === key) ? index :0
   })
   
 }
