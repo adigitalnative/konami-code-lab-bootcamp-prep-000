@@ -21,7 +21,7 @@ function init() {
     
     index = (codes[index] === key) ? ++index :0
     
-    if index.
+    if index =
   })
   
 }
