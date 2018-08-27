@@ -13,5 +13,5 @@ const codes = [
 
 function init() {
   main= document.getElementById('main')
-  console.log("Foo");
+  console.log(main);
 }
