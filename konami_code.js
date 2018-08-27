@@ -25,6 +25,6 @@ function init() {
       window.alert("Woot woot");
       index = 0
     }
-  })
+  });
   
 }
